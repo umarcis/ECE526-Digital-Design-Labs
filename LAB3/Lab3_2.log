@@ -1,0 +1,23 @@
+Command: /home/users15/mu832615/526LSP25/LAB3/./simv -l Lab3_2.log
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP1_Full64; Runtime version U-2023.03-SP1_Full64;  Feb 28 02:31 2025
+VCD+ Writer U-2023.03-SP1_Full64 Copyright (c) 1991-2023 by Synopsys Inc.
+                   0: in1 = x, in2 = x, | out = x  | Internal Signals A1 = x, A2 = x, O1 = x, NT = x
+                  20: in1 = 0, in2 = 0, | out = x  | Internal Signals A1 = x, A2 = x, O1 = x, NT = x
+                  23: in1 = 0, in2 = 0, | out = x  | Internal Signals A1 = 0, A2 = x, O1 = x, NT = 1
+                  23: in1 = 0, in2 = 0, | out = x  | Internal Signals A1 = 0, A2 = 0, O1 = x, NT = 1
+                  25: in1 = 0, in2 = 0, | out = x  | Internal Signals A1 = 0, A2 = 0, O1 = 1, NT = 1
+                  33: in1 = 0, in2 = 0, | out = 1  | Internal Signals A1 = 0, A2 = 0, O1 = 1, NT = 1
+                  40: in1 = 0, in2 = 1, | out = 1  | Internal Signals A1 = 0, A2 = 0, O1 = 1, NT = 1
+                  60: in1 = 1, in2 = 0, | out = 1  | Internal Signals A1 = 0, A2 = 0, O1 = 1, NT = 1
+                  63: in1 = 1, in2 = 0, | out = 1  | Internal Signals A1 = 0, A2 = 0, O1 = 1, NT = 0
+                  65: in1 = 1, in2 = 0, | out = 1  | Internal Signals A1 = 0, A2 = 0, O1 = 0, NT = 0
+                  80: in1 = 1, in2 = 1, | out = 1  | Internal Signals A1 = 0, A2 = 0, O1 = 0, NT = 0
+                  83: in1 = 1, in2 = 1, | out = 1  | Internal Signals A1 = 1, A2 = 0, O1 = 0, NT = 0
+$finish called from file "Lab3_2_tb.v", line 40.
+$finish at simulation time                 1000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 100000 ps
+CPU Time:      0.190 seconds;       Data structure size:   0.0Mb
+Fri Feb 28 02:31:23 2025

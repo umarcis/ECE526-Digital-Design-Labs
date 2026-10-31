@@ -1,0 +1,1 @@
+vcs -debug_access+all register_file_rom.v tb_register_file_rom.v

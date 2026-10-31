@@ -1,0 +1,66 @@
+Command: /home/users15/mu832615/526LSP25/LAB4/./simv -l register8bit.log
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP1_Full64; Runtime version U-2023.03-SP1_Full64;  Mar  9 22:35 2025
+VCD+ Writer U-2023.03-SP1_Full64 Copyright (c) 1991-2023 by Synopsys Inc.
+******************************************************************
+TEST STARTED - Reset Applied
+******************************************************************
+
+
+Time=0 | rst_n=0 | ena=0 | data=00 | r=00
+
+******************************************************************
+Test Case 1: Hold previous data when ena = 0
+******************************************************************
+Time=150 | rst_n=1 | ena=0 | data=8a | r=00
+
+TEST Case 1: ena = 0, Expected = 00, Observed=00
+
+******************************************************************
+Test Case 2 : Write new data when ena = 1
+******************************************************************
+Time=350 | rst_n=1 | ena=1 | data=8a | r=00
+
+Time=450 | rst_n=1 | ena=1 | data=8a | r=8a
+
+TEST Case 2: ena = 1, Expected = 8a, Observed=8a
+
+******************************************************************
+Test Case 3: Check if data holds when ena = 0
+******************************************************************
+Time=550 | rst_n=1 | ena=0 | data=c3 | r=8a
+
+TEST Case 3: ena = 0, Expected = 8a, Observed=8a
+
+******************************************************************************************
+Test Case 4: Write new data with ena = 1, it should reflect on the upcoming positive edge
+******************************************************************************************
+Time=650 | rst_n=1 | ena=1 | data=ff | r=8a
+
+Time=750 | rst_n=1 | ena=1 | data=ff | r=ff
+
+TEST Case 4: ena=1, Expected= ff, Observed=ff
+
+******************************************************************
+Test Case 5: Reset During Operation
+******************************************************************
+Time=850 | rst_n=0 | ena=1 | data=ff | r=00
+
+TEST Case 5: Reset Applied, Expected=00, Observed=00
+
+**********************************************************************************
+Test Case 6: clock period is shorter than the critical path delay which is 14ns.
+**********************************************************************************
+Time=1050 | rst_n=1 | ena=1 | data=aa | r=ff
+
+TEST Case 6: ena=1, Expected= aa, Observed=ff
+
+TEST COMPLETED
+
+$finish called from file "tb_register8bit.v", line 120.
+$finish at simulation time                 1150
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 115000 ps
+CPU Time:      0.180 seconds;       Data structure size:   0.0Mb
+Sun Mar  9 22:35:55 2025

@@ -1,0 +1,172 @@
+Command: /home/users15/mu832615/526LSP25/LAB5/./simv -l top_level.log
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP1_Full64; Runtime version U-2023.03-SP1_Full64;  Mar 16 17:19 2025
+VCD+ Writer U-2023.03-SP1_Full64 Copyright (c) 1991-2023 by Synopsys Inc.
+
+************************************************************************
+Initializing signals and asserting asynchronous reset
+
+************************************************************************
+
+************************************************************************
+
+ Time = 0 | Reset = 0 | Enable = 0 | Load = 0 | Data =   0 | Count =   0
+
+Deasserting reset before positive edge to check async behavior
+
+************************************************************************
+
+************************************************************************
+Enabling counter and waiting for it to count to 8
+
+************************************************************************
+
+
+ Time = 15 | Reset = 1 | Enable = 1 | Load = 0 | Data =   0 | Count =   0
+
+
+ Time = 70 | Reset = 1 | Enable = 1 | Load = 0 | Data =   0 | Count =   1
+
+
+ Time = 90 | Reset = 1 | Enable = 1 | Load = 0 | Data =   0 | Count =   2
+
+
+ Time = 110 | Reset = 1 | Enable = 1 | Load = 0 | Data =   0 | Count =   3
+
+
+ Time = 130 | Reset = 1 | Enable = 1 | Load = 0 | Data =   0 | Count =   4
+
+
+ Time = 150 | Reset = 1 | Enable = 1 | Load = 0 | Data =   0 | Count =   5
+
+
+ Time = 170 | Reset = 1 | Enable = 1 | Load = 0 | Data =   0 | Count =   6
+
+
+ Time = 190 | Reset = 1 | Enable = 1 | Load = 0 | Data =   0 | Count =   7
+
+
+ Time = 210 | Reset = 1 | Enable = 1 | Load = 0 | Data =   0 | Count =   8
+
+************************************************************************
+Loading 240 into counter
+
+************************************************************************
+
+
+ Time = 230 | Reset = 1 | Enable = 1 | Load = 1 | Data = 240 | Count = 240
+
+************************************************************************
+Letting counter count until it rolls over
+
+************************************************************************
+
+
+ Time = 250 | Reset = 1 | Enable = 1 | Load = 0 | Data = 240 | Count = 241
+
+
+ Time = 270 | Reset = 1 | Enable = 1 | Load = 0 | Data = 240 | Count = 242
+
+
+ Time = 290 | Reset = 1 | Enable = 1 | Load = 0 | Data = 240 | Count = 243
+
+
+ Time = 310 | Reset = 1 | Enable = 1 | Load = 0 | Data = 240 | Count = 244
+
+
+ Time = 330 | Reset = 1 | Enable = 1 | Load = 0 | Data = 240 | Count = 245
+
+
+ Time = 350 | Reset = 1 | Enable = 1 | Load = 0 | Data = 240 | Count = 246
+
+
+ Time = 370 | Reset = 1 | Enable = 1 | Load = 0 | Data = 240 | Count = 247
+
+
+ Time = 390 | Reset = 1 | Enable = 1 | Load = 0 | Data = 240 | Count = 248
+
+
+ Time = 410 | Reset = 1 | Enable = 1 | Load = 0 | Data = 240 | Count = 249
+
+
+ Time = 430 | Reset = 1 | Enable = 1 | Load = 0 | Data = 240 | Count = 250
+
+
+ Time = 450 | Reset = 1 | Enable = 1 | Load = 0 | Data = 240 | Count = 251
+
+
+ Time = 470 | Reset = 1 | Enable = 1 | Load = 0 | Data = 240 | Count = 252
+
+
+ Time = 490 | Reset = 1 | Enable = 1 | Load = 0 | Data = 240 | Count = 253
+
+
+ Time = 510 | Reset = 1 | Enable = 1 | Load = 0 | Data = 240 | Count = 254
+
+
+ Time = 530 | Reset = 1 | Enable = 1 | Load = 0 | Data = 240 | Count = 255
+
+
+ Time = 550 | Reset = 1 | Enable = 1 | Load = 0 | Data = 240 | Count =   0
+
+
+ Time = 570 | Reset = 1 | Enable = 1 | Load = 0 | Data = 240 | Count =   1
+
+
+ Time = 590 | Reset = 1 | Enable = 1 | Load = 0 | Data = 240 | Count =   2
+
+
+ Time = 610 | Reset = 1 | Enable = 1 | Load = 0 | Data = 240 | Count =   3
+
+
+ Time = 630 | Reset = 1 | Enable = 1 | Load = 0 | Data = 240 | Count =   4
+
+************************************************************************
+
+ Time = 650 | Reset = 1 | Enable = 1 | Load = 0 | Data = 240 | Count =   5
+
+Asserting reset between edges to check immediate effect
+
+************************************************************************
+
+
+ Time = 655 | Reset = 0 | Enable = 1 | Load = 0 | Data = 240 | Count =   0
+
+Deasserting reset before next positive edge
+
+************************************************************************
+Disabling counter to check enable functionality
+
+************************************************************************
+
+
+ Time = 670 | Reset = 1 | Enable = 0 | Load = 0 | Data = 240 | Count =   0
+
+Enabling counter again
+
+
+ Time = 730 | Reset = 1 | Enable = 1 | Load = 0 | Data = 240 | Count =   1
+
+
+ Time = 750 | Reset = 1 | Enable = 1 | Load = 0 | Data = 240 | Count =   2
+
+
+ Time = 770 | Reset = 1 | Enable = 1 | Load = 0 | Data = 240 | Count =   3
+
+
+ Time = 790 | Reset = 1 | Enable = 1 | Load = 0 | Data = 240 | Count =   4
+
+
+ Time = 810 | Reset = 1 | Enable = 1 | Load = 0 | Data = 240 | Count =   5
+
+************************************************************************
+			Simulation Ended
+************************************************************************
+
+$finish called from file "top_level_tb.v", line 85.
+$finish at simulation time                  830
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 830
+CPU Time:      0.180 seconds;       Data structure size:   0.0Mb
+Sun Mar 16 17:19:40 2025

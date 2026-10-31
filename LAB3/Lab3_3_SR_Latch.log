@@ -1,0 +1,39 @@
+Command: /home/users15/mu832615/526LSP25/LAB3/./simv -l Log3_3_SR_Latch.log
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP1_Full64; Runtime version U-2023.03-SP1_Full64;  Feb 28 01:12 2025
+VCD+ Writer U-2023.03-SP1_Full64 Copyright (c) 1991-2023 by Synopsys Inc.
+Time                    0: s0=x s1=x r0=x r1=x | Q=x Qnot=x
+Time                  200: s0=0 s1=0 r0=0 r1=0 | Q=x Qnot=x
+Time                  290: s0=0 s1=0 r0=0 r1=0 | Q=1 Qnot=1
+Time                  400: s0=0 s1=0 r0=0 r1=1 | Q=1 Qnot=1
+Time                  600: s0=0 s1=0 r0=1 r1=0 | Q=1 Qnot=1
+Time                  800: s0=0 s1=0 r0=1 r1=1 | Q=1 Qnot=1
+Time                  890: s0=0 s1=0 r0=1 r1=1 | Q=1 Qnot=0
+Time                 1000: s0=0 s1=1 r0=0 r1=0 | Q=1 Qnot=0
+Time                 1090: s0=0 s1=1 r0=0 r1=0 | Q=1 Qnot=1
+Time                 1200: s0=0 s1=1 r0=0 r1=1 | Q=1 Qnot=1
+Time                 1400: s0=0 s1=1 r0=1 r1=0 | Q=1 Qnot=1
+Time                 1600: s0=0 s1=1 r0=1 r1=1 | Q=1 Qnot=1
+Time                 1690: s0=0 s1=1 r0=1 r1=1 | Q=1 Qnot=0
+Time                 1800: s0=1 s1=0 r0=0 r1=0 | Q=1 Qnot=0
+Time                 1890: s0=1 s1=0 r0=0 r1=0 | Q=1 Qnot=1
+Time                 2000: s0=1 s1=0 r0=0 r1=1 | Q=1 Qnot=1
+Time                 2200: s0=1 s1=0 r0=1 r1=0 | Q=1 Qnot=1
+Time                 2400: s0=1 s1=0 r0=1 r1=1 | Q=1 Qnot=1
+Time                 2490: s0=1 s1=0 r0=1 r1=1 | Q=1 Qnot=0
+Time                 2600: s0=1 s1=1 r0=0 r1=0 | Q=1 Qnot=0
+Time                 2690: s0=1 s1=1 r0=0 r1=0 | Q=1 Qnot=1
+Time                 2780: s0=1 s1=1 r0=0 r1=0 | Q=0 Qnot=1
+Time                 2800: s0=1 s1=1 r0=0 r1=1 | Q=0 Qnot=1
+Time                 3000: s0=1 s1=1 r0=1 r1=0 | Q=0 Qnot=1
+Time                 3200: s0=1 s1=1 r0=1 r1=1 | Q=0 Qnot=1
+Time                 3250: Test Completed. Final state: Q=0 Qnot=1
+End of Simulation at Time                 3300. Final Outputs: Q=0, Qnot=1
+At Time                 3350: Final Outputs - Q=0, Qnot=1
+$finish called from file "Lab3_3_SR_Latch_tb.v", line 72.
+$finish at simulation time                 3450
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 345000 ps
+CPU Time:      0.180 seconds;       Data structure size:   0.0Mb
+Fri Feb 28 01:12:07 2025

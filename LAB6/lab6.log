@@ -1,0 +1,58 @@
+Command: /home/users15/mu832615/526LSP25/LAB6/./simv -l lab6.log
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP1_Full64; Runtime version U-2023.03-SP1_Full64;  Apr  5 01:02 2025
+VCD+ Writer U-2023.03-SP1_Full64 Copyright (c) 1991-2023 by Synopsys Inc.
+
+*********************************************************************************************
+Starting Parameterized MUX Testbench
+*********************************************************************************************
+
+*********************************************************************************************
+CASE 1: sel = 0 → output should be A
+
+
+sel=0 | A=101010 B=010101 | out1=0 out4=1010 out5=01010 out6=101010
+
+*********************************************************************************************
+CASE 2: sel = 1 → output should be B
+
+
+sel=1 | A=111100 B=000011 | out1=1 out4=0011 out5=00011 out6=000011
+
+*********************************************************************************************
+CASE 3: sel = x, A == B → output = A (no x)
+
+
+sel=x, A==B | A=110011 B=110011 | out1=1 out4=0011 out5=10011 out6=110011
+
+*********************************************************************************************
+CASE 4: sel = x, A != B → output = x (conflicts)
+
+
+sel=x, A!=B | A=111000 B=000111 | out1=x out4=xxxx out5=xxxxx out6=xxxxxx
+
+*********************************************************************************************
+CASE 5: sel = x, A and B share some bits
+
+
+sel=x, mixed A/B | A=101011 B=101101 | out1=1 out4=1xx1 out5=01xx1 out6=101xx1
+
+*********************************************************************************************
+CASE 6: Toggle every bit in output to both 0 and 1
+Making sure no bits are stuck
+
+
+All output bits to 0: A=000000 B=111111 | out1=0 out4=0000 out5=00000 out6=000000
+All output bits to 1: A=111111 B=000000 | out1=1 out4=1111 out5=11111 out6=111111
+
+*********************************************************************************************
+Mux Testbench Finished.
+*********************************************************************************************
+
+$finish called from file "mux_tb.sv", line 136.
+$finish at simulation time                   35
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 35
+CPU Time:      0.180 seconds;       Data structure size:   0.0Mb
+Sat Apr  5 01:02:07 2025

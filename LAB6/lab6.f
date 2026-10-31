@@ -1,0 +1,1 @@
+vcs -debug_access+all -sverilog mux.sv mux_tb.sv

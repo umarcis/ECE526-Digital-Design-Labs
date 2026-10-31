@@ -1,0 +1,99 @@
+Command: /home/users15/mu832615/526LSP25/LAB7/./simv -l tb2_rom.log
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP1_Full64; Runtime version U-2023.03-SP1_Full64;  Apr 13 02:28 2025
+VCD+ Writer U-2023.03-SP1_Full64 Copyright (c) 1991-2023 by Synopsys Inc.
+================================================
+ Starting ROM Testbench for register_file_rom
+================================================
+
+================================================
+ Initialized Memory for Checking (0x04 to 0x0F)
+================================================
+Address 04 = 58
+Address 05 = ed
+Address 06 = b7
+Address 07 = 34
+Address 08 = c9
+Address 09 = 8f
+Address 0a = a0
+Address 0b = 9b
+Address 0c = 65
+Address 0d = 11
+Address 0e = 03
+Address 0f = 4c
+
+================================================
+ Unspecified Addresses Checking (should be X)
+================================================
+Address 00 = xx
+Address 01 = xx
+Address 02 = xx
+Address 03 = xx
+
+================================================
+ Scramble and Rewrite (0x10 to 0x17)
+================================================
+Original da Scrambled = 73
+Original 7e Scrambled = 3f
+Original f2 Scrambled = 75
+Original 26 Scrambled = 2c
+Original 86 Scrambled = 68
+Original 95 Scrambled = c9
+Original fd Scrambled = df
+Original b1 Scrambled = c5
+
+================================================
+ Scrambled Values
+================================================
+Address 10 = 73
+Address 11 = 3f
+Address 12 = 75
+Address 13 = 2c
+Address 14 = 68
+Address 15 = c9
+Address 16 = df
+Address 17 = c5
+
+================================================
+ Full Memory 
+================================================
+ROM[00] = xx
+ROM[01] = xx
+ROM[02] = xx
+ROM[03] = xx
+ROM[04] = 58
+ROM[05] = ed
+ROM[06] = b7
+ROM[07] = 34
+ROM[08] = c9
+ROM[09] = 8f
+ROM[0a] = a0
+ROM[0b] = 9b
+ROM[0c] = 65
+ROM[0d] = 11
+ROM[0e] = 03
+ROM[0f] = 4c
+ROM[10] = da
+ROM[11] = 7e
+ROM[12] = f2
+ROM[13] = 26
+ROM[14] = 86
+ROM[15] = 95
+ROM[16] = fd
+ROM[17] = b1
+ROM[18] = xx
+ROM[19] = xx
+ROM[1a] = xx
+ROM[1b] = xx
+ROM[1c] = 12
+ROM[1d] = af
+ROM[1e] = 33
+ROM[1f] = xx
+Completed Test Cases for ROM
+$finish called from file "tb_register_file_rom.v", line 99.
+$finish at simulation time               194000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 194000 ps
+CPU Time:      0.180 seconds;       Data structure size:   0.0Mb
+Sun Apr 13 02:28:43 2025

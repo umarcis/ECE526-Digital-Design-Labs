@@ -1,0 +1,149 @@
+Command: /home/users15/mu832615/526LSP25/LAB9/./simv -l FIFO.log
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP1-1_Full64; Runtime version U-2023.03-SP1-1_Full64;  May  2 22:42 2025
+VCD+ Writer U-2023.03-SP1-1_Full64 Copyright (c) 1991-2023 by Synopsys Inc.
+
+===========================================================================
+Write to FIFO more than its capacity to test full and overflow
+===========================================================================
+
+Write: 0, Count: 1, Full: 0, Almost_Full: 0, Overflow: 0
+Write: 1, Count: 2, Full: 0, Almost_Full: 0, Overflow: 0
+Write: 2, Count: 3, Full: 0, Almost_Full: 0, Overflow: 0
+Write: 3, Count: 4, Full: 0, Almost_Full: 0, Overflow: 0
+Write: 4, Count: 5, Full: 0, Almost_Full: 0, Overflow: 0
+Write: 5, Count: 6, Full: 0, Almost_Full: 0, Overflow: 0
+Write: 6, Count: 7, Full: 0, Almost_Full: 0, Overflow: 0
+Write: 7, Count: 8, Full: 0, Almost_Full: 0, Overflow: 0
+Write: 8, Count: 9, Full: 0, Almost_Full: 0, Overflow: 0
+Write: 9, Count: 10, Full: 0, Almost_Full: 0, Overflow: 0
+Write: 10, Count: 11, Full: 0, Almost_Full: 0, Overflow: 0
+Write: 11, Count: 12, Full: 0, Almost_Full: 0, Overflow: 0
+Write: 12, Count: 13, Full: 0, Almost_Full: 0, Overflow: 0
+Write: 13, Count: 14, Full: 0, Almost_Full: 0, Overflow: 0
+Write: 14, Count: 15, Full: 0, Almost_Full: 0, Overflow: 0
+Write: 15, Count: 16, Full: 0, Almost_Full: 0, Overflow: 0
+Write: 16, Count: 17, Full: 0, Almost_Full: 0, Overflow: 0
+Write: 17, Count: 18, Full: 0, Almost_Full: 0, Overflow: 0
+Write: 18, Count: 19, Full: 0, Almost_Full: 0, Overflow: 0
+Write: 19, Count: 20, Full: 0, Almost_Full: 0, Overflow: 0
+Write: 20, Count: 21, Full: 0, Almost_Full: 0, Overflow: 0
+Write: 21, Count: 22, Full: 0, Almost_Full: 0, Overflow: 0
+Write: 22, Count: 23, Full: 0, Almost_Full: 0, Overflow: 0
+Write: 23, Count: 24, Full: 0, Almost_Full: 0, Overflow: 0
+Write: 24, Count: 25, Full: 0, Almost_Full: 0, Overflow: 0
+Write: 25, Count: 26, Full: 0, Almost_Full: 0, Overflow: 0
+Write: 26, Count: 27, Full: 0, Almost_Full: 0, Overflow: 0
+Write: 27, Count: 28, Full: 0, Almost_Full: 0, Overflow: 0
+Write: 28, Count: 29, Full: 0, Almost_Full: 0, Overflow: 0
+Write: 29, Count: 30, Full: 0, Almost_Full: 0, Overflow: 0
+Write: 30, Count: 31, Full: 0, Almost_Full: 1, Overflow: 0
+
+*** Warning: FIFO is ALMOST FULL! ***
+
+Write: 31, Count: 32, Full: 0, Almost_Full: 1, Overflow: 0
+
+*** Warning: FIFO is ALMOST FULL! ***
+
+Write: 32, Count: 32, Full: 1, Almost_Full: 1, Overflow: 1
+*** FIFO is FULL! No more data can be written! ***
+Write: 33, Count: 32, Full: 1, Almost_Full: 1, Overflow: 1
+*** FIFO is FULL! No more data can be written! ***
+Write: 34, Count: 32, Full: 1, Almost_Full: 1, Overflow: 1
+*** FIFO is FULL! No more data can be written! ***
+Write: 35, Count: 32, Full: 1, Almost_Full: 1, Overflow: 1
+*** FIFO is FULL! No more data can be written! ***
+Write: 36, Count: 32, Full: 1, Almost_Full: 1, Overflow: 1
+*** FIFO is FULL! No more data can be written! ***
+
+===========================================================================
+Read from FIFO until empty to test empty and underflow
+===========================================================================
+
+Read: 0, Data_out: 0, Valid: 1, Count: 31, Empty: 0, Almost_Empty: 0, Underflow: 0
+Read: 1, Data_out: 1, Valid: 1, Count: 30, Empty: 0, Almost_Empty: 0, Underflow: 0
+Read: 2, Data_out: 2, Valid: 1, Count: 29, Empty: 0, Almost_Empty: 0, Underflow: 0
+Read: 3, Data_out: 3, Valid: 1, Count: 28, Empty: 0, Almost_Empty: 0, Underflow: 0
+Read: 4, Data_out: 4, Valid: 1, Count: 27, Empty: 0, Almost_Empty: 0, Underflow: 0
+Read: 5, Data_out: 5, Valid: 1, Count: 26, Empty: 0, Almost_Empty: 0, Underflow: 0
+Read: 6, Data_out: 6, Valid: 1, Count: 25, Empty: 0, Almost_Empty: 0, Underflow: 0
+Read: 7, Data_out: 7, Valid: 1, Count: 24, Empty: 0, Almost_Empty: 0, Underflow: 0
+Read: 8, Data_out: 8, Valid: 1, Count: 23, Empty: 0, Almost_Empty: 0, Underflow: 0
+Read: 9, Data_out: 9, Valid: 1, Count: 22, Empty: 0, Almost_Empty: 0, Underflow: 0
+Read: 10, Data_out: 10, Valid: 1, Count: 21, Empty: 0, Almost_Empty: 0, Underflow: 0
+Read: 11, Data_out: 11, Valid: 1, Count: 20, Empty: 0, Almost_Empty: 0, Underflow: 0
+Read: 12, Data_out: 12, Valid: 1, Count: 19, Empty: 0, Almost_Empty: 0, Underflow: 0
+Read: 13, Data_out: 13, Valid: 1, Count: 18, Empty: 0, Almost_Empty: 0, Underflow: 0
+Read: 14, Data_out: 14, Valid: 1, Count: 17, Empty: 0, Almost_Empty: 0, Underflow: 0
+Read: 15, Data_out: 15, Valid: 1, Count: 16, Empty: 0, Almost_Empty: 0, Underflow: 0
+Read: 16, Data_out: 16, Valid: 1, Count: 15, Empty: 0, Almost_Empty: 0, Underflow: 0
+Read: 17, Data_out: 17, Valid: 1, Count: 14, Empty: 0, Almost_Empty: 0, Underflow: 0
+Read: 18, Data_out: 18, Valid: 1, Count: 13, Empty: 0, Almost_Empty: 0, Underflow: 0
+Read: 19, Data_out: 19, Valid: 1, Count: 12, Empty: 0, Almost_Empty: 0, Underflow: 0
+Read: 20, Data_out: 20, Valid: 1, Count: 11, Empty: 0, Almost_Empty: 0, Underflow: 0
+Read: 21, Data_out: 21, Valid: 1, Count: 10, Empty: 0, Almost_Empty: 0, Underflow: 0
+Read: 22, Data_out: 22, Valid: 1, Count: 9, Empty: 0, Almost_Empty: 0, Underflow: 0
+Read: 23, Data_out: 23, Valid: 1, Count: 8, Empty: 0, Almost_Empty: 0, Underflow: 0
+Read: 24, Data_out: 24, Valid: 1, Count: 7, Empty: 0, Almost_Empty: 0, Underflow: 0
+Read: 25, Data_out: 25, Valid: 1, Count: 6, Empty: 0, Almost_Empty: 0, Underflow: 0
+Read: 26, Data_out: 26, Valid: 1, Count: 5, Empty: 0, Almost_Empty: 0, Underflow: 0
+Read: 27, Data_out: 27, Valid: 1, Count: 4, Empty: 0, Almost_Empty: 0, Underflow: 0
+Read: 28, Data_out: 28, Valid: 1, Count: 3, Empty: 0, Almost_Empty: 0, Underflow: 0
+Read: 29, Data_out: 29, Valid: 1, Count: 2, Empty: 0, Almost_Empty: 0, Underflow: 0
+Read: 30, Data_out: 30, Valid: 1, Count: 1, Empty: 0, Almost_Empty: 1, Underflow: 0
+
+*** Warning: FIFO is ALMOST EMPTY! ***
+
+Read: 31, Data_out: 31, Valid: 1, Count: 0, Empty: 0, Almost_Empty: 1, Underflow: 0
+
+*** Warning: FIFO is ALMOST EMPTY! ***
+
+Read: 32, Data_out: 31, Valid: 0, Count: 0, Empty: 1, Almost_Empty: 1, Underflow: 1
+*** ERROR: FIFO UNDERFLOW occurred! Tried to read when empty! ***
+Read: 33, Data_out: 31, Valid: 0, Count: 0, Empty: 1, Almost_Empty: 1, Underflow: 1
+*** ERROR: FIFO UNDERFLOW occurred! Tried to read when empty! ***
+Read: 34, Data_out: 31, Valid: 0, Count: 0, Empty: 1, Almost_Empty: 1, Underflow: 1
+*** ERROR: FIFO UNDERFLOW occurred! Tried to read when empty! ***
+Read: 35, Data_out: 31, Valid: 0, Count: 0, Empty: 1, Almost_Empty: 1, Underflow: 1
+*** ERROR: FIFO UNDERFLOW occurred! Tried to read when empty! ***
+Read: 36, Data_out: 31, Valid: 0, Count: 0, Empty: 1, Almost_Empty: 1, Underflow: 1
+*** ERROR: FIFO UNDERFLOW occurred! Tried to read when empty! ***
+
+===========================================================================
+Simultaneous write and read
+===========================================================================
+
+Simultaneous Write and Read - Data_in: 42, Data_out: 31
+
+Final Flags Empty: 0, Almost_Empty: 1, Full: 0, Almost_Full: 0, Count: 1
+
+===========================================================================
+Partial Write (few locations) and Readback
+===========================================================================
+
+Partial Write: 0, Data_in: 100, Count: 2, Full: 0
+Partial Write: 1, Data_in: 101, Count: 3, Full: 0
+Partial Write: 2, Data_in: 102, Count: 4, Full: 0
+Partial Read: 0, Data_out: 42, Valid: 1, Count: 3, Empty: 0
+Partial Read: 1, Data_out: 100, Valid: 1, Count: 2, Empty: 0
+Partial Read: 2, Data_out: 101, Valid: 1, Count: 1, Empty: 0
+Partial Read: 3, Data_out: 102, Valid: 1, Count: 0, Empty: 0
+
+===========================================================================
+FWFT Behavior Check: Write without Read
+===========================================================================
+
+FWFT Preload Test | Data Written: 55, Data_out (before rd_en): 55
+FWFT Preload Test | After Read, Data_out: 55, Valid: 1
+
+===========================================================================
+Test Finished, All Cases for FIFO are Covered
+===========================================================================
+
+$finish called from file "FIFO_tb.sv", line 188.
+$finish at simulation time              1745000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 1745000 ps
+CPU Time:      0.180 seconds;       Data structure size:   0.0Mb
+Fri May  2 22:42:16 2025
